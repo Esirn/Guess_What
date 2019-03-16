@@ -29,7 +29,7 @@ def check(a,b):
 	print("Golden:{0}, Blue:{1}".format(golden, blue))
 
 while True:
-	a = random.randint(1,1000)
+	a = random.randint(123,9877)
 	if diff(a):
 		break
 
